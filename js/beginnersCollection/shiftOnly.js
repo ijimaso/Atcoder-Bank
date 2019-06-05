@@ -23,5 +23,5 @@ const main = (input) => {
     shift(N, numbers, 0);
 };
 
-main(require("fs").readFileSync("input.txt", "utf8"));
+main(require("fs").readFileSync("../input.txt", "utf8"));
 // main(require("fs").readFileSync("/dev/stdin", "utf8"));

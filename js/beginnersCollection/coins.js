@@ -19,4 +19,4 @@ const main = (input) => {
     console.log(order);
 };
 
-main(require("fs").readFileSync("input.txt", "utf8"));
+main(require("fs").readFileSync("../input.txt", "utf8"));

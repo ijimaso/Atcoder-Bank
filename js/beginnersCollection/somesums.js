@@ -17,4 +17,4 @@ const main = (input) => {
     console.log(allSum);
 };
 
-main(require("fs").readFileSync("input.txt", "utf8"));
+main(require("fs").readFileSync("../input.txt", "utf8"));
