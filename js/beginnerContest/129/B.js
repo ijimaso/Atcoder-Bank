@@ -1,6 +1,5 @@
 const main = (input) => {
     input = input.split("\n");
-    const N = Number(input[0]);
     const weights = input[1].split(" ").map((weight) => Number(weight));
     const diffs = [];
     for (let i = 0; i < weights.length; i++) {
