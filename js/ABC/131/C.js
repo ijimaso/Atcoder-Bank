@@ -1,11 +1,11 @@
-// 二つの数の最大公約数を求める
+// 二つの数の最大公約数(greatest common divisor)を求める
 const gcd = (C, D) => {
     return D ? gcd(D, C % D) : C;
 };
 
-// 二つの数の最小公約数を求める
+// 二つの数の最小公倍数(least common multiple)を求める
 const lcm = (C, D) => {
-    return (C * D) / gcd(C, D);
+    return Math.floor((C * D) / gcd(C, D));
 };
 
 // C,Dで割り切れる数を求め，全体の数から引く
