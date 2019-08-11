@@ -21,7 +21,7 @@ const main = (input) => {
                 continue;
             }
             let sum = 0;
-            for (let k = 0; k < D; k++){
+            for (let k = 0; k < D; k++) {
                 sum += (arrayXs[i][k] - arrayXs[j][k]) ** 2;
             }
             sum = Math.sqrt(sum);
