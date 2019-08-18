@@ -4,8 +4,7 @@ const main = (input) => {
 
     let reverseAs = 0;
     for (const A of As) {
-        const reverseA = 1 / A;
-        reverseAs += reverseA;
+        reverseAs += 1 / A;
     }
 
     const ans = 1 / reverseAs;
